@@ -22,9 +22,6 @@ npm install
 4. Configure las variables de entorno
 Renombre el archivo .env.example a .env y complete la información necesaria, como las credenciales de la base de datos SQL, el puerto, entre otros.
 
-
-tengo que hacer: mysqldump -u username -p alerta > database_schema.sql
-en mi bash
 node src/server.js
 
 Debe recibir el siguiente mensaje:
